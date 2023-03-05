@@ -1,0 +1,16 @@
+{
+  "name": "exampleorg/example-lucianne-application",
+  "autoload": {
+    "psr-4": {
+      "Controllers\\": "src/controllers"
+    }
+  },
+  "require": {
+    "fruitriin/lucienne": "^0.0.1"
+  },
+  "config": {
+    "platform": {
+      "php": "8.2"
+    }
+  }
+}
